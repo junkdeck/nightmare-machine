@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+.wrapper{
+    height:100%;
+    /*background: #f0f;*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: 500ms;
+}
+.controlbutton{
+	height:100px;
+	width:100px;
+	margin:20px;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.restart{
+	background: #dfa034;
+}
+.stop{
+	background: #b03535;
+}
+.start{
+	background: #40b56b;
+}
